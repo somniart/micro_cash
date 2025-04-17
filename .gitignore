@@ -117,3 +117,30 @@ app.*.symbols
 !**/ios/**/default.perspectivev3
 !/packages/flutter_tools/test/data/dart_dependencies_test/**/.packages
 !/dev/ci/**/Gemfile.lock
+
+# Flutter
+**/doc/api/
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+**/android/gradle-wrapper.jar
+**/ios/Flutter/.last_build_id
+**/lib/.DS_Store
+
+# Android/iOS
+**/android/.gradle/
+**/android/app/build/
+**/ios/DerivedData/
+**/ios/Pods/
+
+# IDEs
+.vscode/
+.idea/
+*.iml
+*.swp
+
+# Temporales
+*.log
+*.tmp
+*.backup
